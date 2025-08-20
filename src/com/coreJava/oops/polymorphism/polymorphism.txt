@@ -1,0 +1,16 @@
+								POLYMORPHISM
+->ploy-morphism means many + forms
+->There are 2 types of poly-morphism
+	1.Runtime poly-morphism(overriding)
+	->which method to call decide at runtime
+	2.Compile time poly-morphism(overloading)
+	->which method to call decide at compile time	
+	
+1.We cannot override private methods.
+2.Access Modifier :-> Cannot reduce the visibility of the inherited method from super class.
+	ex :- Default -> default < protected < public ,(private)X
+		  protected -> protected < public ,(default and private)X
+3.Return type should be same and co-varient return type is also allowed(it can return sub type).
+	co-varient:- either override method should return same as parent or sub class of return type.
+4.Method name should be same and arguments as well.
+5.							

@@ -1,0 +1,7 @@
+									**CONSTRUCTOR**
+-> IIB will always call when object created but SIB is called when class loaded
+-> in constructor 1st line should be call to super() or this()
+-> in constructor 2nd line always call to IIB
+-> in constructor 3rd rest logic
+-> SIB :- it executes only once after loading class .eg:-database connection,file handling.
+-> IIb :- it will execute every object creation.

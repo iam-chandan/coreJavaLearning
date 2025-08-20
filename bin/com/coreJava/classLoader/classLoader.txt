@@ -1,0 +1,9 @@
+									CLASS LOADER
+1. bootstrap class loader :- core classes
+2. extension class loader :- jre/ext file
+3. application class loader :- application classes
+
+4. custom class loader
+	bootstrap class loader > extension class loader > application class loader
+
+-> deligation model	:- always check with parent before loading the class								

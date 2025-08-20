@@ -1,0 +1,5 @@
+										ABSTRACTION
+-> abstract means blueprint for other classes or what to do?
+-> abstract class cannot be instatiated/create object
+-> abstract can have constructor
+-> abstraction means hiding implementation details and exposing necessary details

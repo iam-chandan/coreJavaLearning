@@ -1,0 +1,10 @@
+							SringBuffer & StringBuilder
+-> when ever you want to modify string frequently then use StringBuffer or StringBuilder
+-> SringBuffer & StringBuilder both are mutable i.e. you can modify the parent object
+-> for dynamic query we use SringBuffer or StringBuilder
+
+					SringBuffer vs StringBuilder
+->StrignBuffer is mutable.        ->StringBuilder is also mutable.
+->StrignBuffer is thread safe.    ->StringBuilder is not thread safe.
+->StringBuffer is slower compare  ->StringBuilder is faster compare to 
+  to StringBuilder.                 StringBuffer.

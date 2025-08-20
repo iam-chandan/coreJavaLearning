@@ -1,0 +1,14 @@
+											OOPS
+->
+->if we follow OOPS then our code will be reusable,maintainable,secure,modular
+->4 pilers of OOPS 
+	1.Encapsulation -> bind data(variables and method) and behavior together .hiding the variables or data (using private access modifire) 
+					   and providing public methods.for data security we use Encapsulation.
+					-> It is the process of hiding the data
+					-> It is created using private variable and public method(setter & getter)
+					-> Advantage is security (avoiding unwanted access and modification)
+	
+	2.Inheritance ->
+				  -> if variable or method is private then inheritance is not possible with in class only we can access not able to access outside class.
+	3.Polymorphism
+	5.Abstraction
