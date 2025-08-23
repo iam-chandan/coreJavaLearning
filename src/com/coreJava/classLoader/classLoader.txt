@@ -6,4 +6,4 @@
 4. custom class loader
 	bootstrap class loader > extension class loader > application class loader
 
--> deligation model	:- always check with parent before loading the class								
+-> delegation model	:- always check with parent before loading the class								

@@ -1,0 +1,7 @@
+									INTERFACE before java1.8/8
+-> 100% contract based
+-> all the methods in interface by default public and abstract
+-> variables in interface always abstract or constant
+-> constant variables always in upper-case as per industry standard
+		public static final MAX = 10;
+-> with interface we cannot create object same with abstract class 									

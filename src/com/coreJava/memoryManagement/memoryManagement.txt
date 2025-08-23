@@ -5,12 +5,12 @@
 -> local variable goes to stack
 -> object store in heap and there reference store in stack
 -> Garbage collector present in heap
--> heap is devided into 2 types
+-> heap is divided into 2 types
 	1. young gen
 		1. eden
 			-> when ever object create that object store in eden
 		2.S0 (S :- s stands survivor)
-			-> once minore GC removed the nullified objects from from eden then rest objects which are present in eden will transfer
+			-> once minor GC removed the nullified objects from from eden then rest objects which are present in eden will transfer
 			   to S0
 		3.S1
 			-> same like above after nullified objects removed then rest objects will transfer to S1
