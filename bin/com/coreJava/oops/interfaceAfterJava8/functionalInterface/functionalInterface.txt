@@ -1,0 +1,17 @@
+								FUNCTIONAL INTERFACE
+->got introduced in java 8.
+-> interface with single abstract method.
+-> This is also called "SAM" single abstract method.
+->@FunctionalInterface - This is optional
+
+*why functional interface?
+ -> java wanted functional programming so java introduced functional interface.to achieve lambda expression 
+ 	lambda expression :- ()->{}
+ 	without method signature only parenthesis, arrow,and curly braces
+ 	
+*list of in-built functional interface
+	1.runnable
+	2.supplier
+	3.callable
+	4.predicate
+	5.consumer
