@@ -1,0 +1,21 @@
+										EXCEPTION HANDLING
+-> 
+-> Exception is a unexpected situation happen during running program and it breaks normal flow of code.
+-> error cannot be handle program-meticaly 
+	ex:- recursion without base condition like outOfMemoryError
+-> exceptions can be handled program-meticaly using try-catch
+-> always mention the child(ArithmaticExceptio,ArrayIndexOutOfBoundException,etc..) exception first
+   then in the last use parent/Exception last
+*finally block
+-> exception occur or not finally block will executed.it is mandatory executable block
+	ex :- nullyfing object, close database connection, file connection
+	-> withou catch block also we can use finally block
+	-> when ever returning somthing from finally then it will override other return values
+	
+* how do you improve performance?
+ -> using finally block i will close all the connections once completed
+ 
+ System.exit(0) :-> when JVM dies then finally block not execute so .exit(0) uses to kill JVM
+ -> only try is not possible,only catch is not possible and only finally is not possible
+ -> multiple exceptions can be added in a single catch block using "|" pipe simbol but here can not use parrent and child only
+    those exception allowed which are not related to each other
