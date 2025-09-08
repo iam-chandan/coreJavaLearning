@@ -19,3 +19,17 @@
  -> only try is not possible,only catch is not possible and only finally is not possible
  -> multiple exceptions can be added in a single catch block using "|" pipe simbol but here can not use parrent and child only
     those exception allowed which are not related to each other
+
+    *throw  & throws
+-> throw means throw new exception
+-> throws means method may throw exception it is used with method signature/declaration
+
+*custom exception/user defined exception(developer need to create or define exception class)
+-> 
+
+
+
+
+*try with resources (ctrl + shift + t -> search classes & interfaces in eclips )
+-> before java 7 we use finally block for closing all the connections but we can use try with resources to auto close all the resources
+   which ever class using in try it should autoClosable like BufferedReader,FileReader,Database connection
