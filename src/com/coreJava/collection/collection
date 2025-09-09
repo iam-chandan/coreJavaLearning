@@ -1,0 +1,26 @@
+											COLLECTION FRAMEWORK
+-> storing similar kind of object as unit is known as collection.
+
+	ITERABLE
+	   -> COLLECTION
+			-> LIST(I)
+				-> insertion order follows
+				-> multiple null allowed
+				-> duplicate allowed
+			-> SET(I)
+				-> insertion order not follows
+				-> only one null allowed
+				-> duplicate not allowed		
+				
+				
+	LIST(I)
+	  1.ArrayList
+	  	 -> index based
+	  	 -> duplicate allowed	
+	     -> multiple null allowed
+	     
+	  2.LinkedList		
+	     -> node based
+	     -> duplicate allowed	
+	     -> multiple null allowed
+*NOTE:- In Eclipse, the keyboard shortcut "Ctrl + Shift + O" is used to Organize Imports in the current Java source file.									

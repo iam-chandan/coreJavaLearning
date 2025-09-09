@@ -10,5 +10,5 @@ public class Person implements Serializable{
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
-
 }
+
