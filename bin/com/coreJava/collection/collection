@@ -29,6 +29,21 @@
 	     -> multiple null allowed
 	     -> insertion/deletion in the middle T/C :- O(1) but iteration/to reach there is O(n) + after reaching the node deletion/insertion O(1) => O(n)
 	     -> random access/reading T/C:- O(n)
+
+-> every object have hashCode that are integers(+ve & -ve);
+
+
+
+
+
+
+
+
+
+
+
 	     
 	     
-*NOTE:- In Eclipse, the keyboard shortcut "Ctrl + Shift + O" is used to Organize Imports in the current Java source file.									
+*NOTE:- In Eclipse, the keyboard shortcut "Ctrl + Shift + O" is used to Organize Imports in the current Java source file.
+Q.can you override the equals() method? yes
+									

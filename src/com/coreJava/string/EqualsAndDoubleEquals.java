@@ -46,4 +46,8 @@ class Person{
 //		}
 //		return false;
 //	}
+	public boolean equals (Object obj) {
+		Person person = (Person)obj;
+		return this.name.equals(person.name);
+	}
 }
