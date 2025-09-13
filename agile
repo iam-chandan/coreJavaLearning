@@ -1,0 +1,31 @@
+								AGILE (flexible) METHODOLOGY
+1.waterfall :- take requirement up-front
+2.using agile develop application in flexible way  (mostly 7 to 14 days)	
+	-> every one using agile but not using true agile
+	-> next 2 weeks what u will going to do u have to choose
+	i. scrum 
+	 -> it is a framework 
+	 -> 1 sprint is mostly 2 weeks
+	 -> sprint review
+	 -> daily stand-up meeting : scrum master will take this max to max 15 to 30 min.
+	 -> *spill over: during scrum review meeting if any task not completed then it move to next sprint or as per task priority will do
+	 -> *retro specting /meeting : what is u have done fully and what ur not able to do. here only discuss what completed and what not.
+	ii. kanban	
+	
+-> no micro management in scrum
+
+-> product owner(po):- product backlog, representing customer/client 
+CR :- change request	
+
+*work 
+	-> Epic (ex:- book)
+	   -> story (ex:- chapter)
+	       -> task (ex:- topic)	
+Q. how many stories u have completed in a sprint?
+	complexity like 1 means 1 day or easy, 2 means 2-3 day or medium, 
+	
+	
+	
+	
+	
+	       				
