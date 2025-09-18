@@ -17,4 +17,6 @@
 		-> no null allowed
 
 -> if two different objects wants to store in a same index then that is known as hash collision to avoid this we use linkedlist inside that index 
-   if two different objects are give the same hashCode. 									
+   if two different objects are give the same hashCode. 
+   
+   									
