@@ -1,0 +1,57 @@
+										STREAM API
+-> Collection vs Stream
+	->collection :- just store the data
+	->stream :- process the data						
+-> filtering will always give subset of data using filter() method will do
+
+	i/p:- {apple,samsung,lg.godrej,sansui,sony}; used filter() method to convert i/p to o/p with multiplying 2 with every element
+	o/p:- {samsung.sansui,sony}
+
+-> transforming all the product to a single type of product like making all to upper case,lower case,
+   multiplying 2 with every element etc. for that we use map() method	
+   
+   i/p:-{apple,ball,cat}used map() to convert i/p to o/p converting every element to upper case
+   o/p:-{APPLE,BALL,CAT}
+   
+   i/p:-{2,4,8,10} used map() to convert i/p to o/p with multiplying 2 with every element
+   o/p:-{4,8,16,20}
+   
+   -------------------------------------------------------------------------------------------------------
+   internal working of stream API
+   -------------------------------------------------------------------------------------------------------
+-> 2 types of operation in stream 
+	1. terminal operation
+		-> it takes stream as input and perform the operation and return the result.once done will stop/terminate the stream.
+		   It will be called only once
+		-> Ex :- count(),collect etc.
+	2. intermediate operation(stream ->terminal operation -> another stream)
+		-> Ex :- map,flatMap,filter etc.
+		-> you can create chain of intermediate operation like (stream -> flatmap -> stream -> map -> stream -> )
+		-> lazy execution :- intermediate operation will get executed once when terminal operation is called.
+		                     for better performance and memory optimization
+		-> terminal called only once bcz once terminal called then end of the stream but intermediate can call any number of times 			
+-> 2 types of stream
+	1. parallel stream
+		-> large data processing
+	2. sequential stream
+		-> single threaded
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

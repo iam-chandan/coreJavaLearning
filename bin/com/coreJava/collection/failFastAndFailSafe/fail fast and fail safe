@@ -1,0 +1,8 @@
+									Fail fast and fail safe
+-> during iteration if you want to modify the collection then that is called fail fast collection	
+
+-> internally it uses mode count to check if it is fail safe or fail fast
+-> concurrent modification exception is fail fast
+-> a class does not give any exception during modification that is fail safe
+	ex :- copyOnWriteArraylist
+		  concurrentHashMap								

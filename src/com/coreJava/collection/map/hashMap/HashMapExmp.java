@@ -26,6 +26,7 @@ public class HashMapExmp {
 			Entry<String,String> as = itr.next();
 			
 			System.out.println("key : " + as.getKey() + " value : " + as.getValue());
+			stateAndCapital.put("wb", "kolkata");
 		}
 
 	}
