@@ -7,7 +7,4 @@ public class Driver {
 		Bank bank = new Bank("14258963",1425,2000);
 		bank.transferAmount(3000);
 	}
-
-	
-
 }

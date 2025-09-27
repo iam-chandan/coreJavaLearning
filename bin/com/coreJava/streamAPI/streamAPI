@@ -26,7 +26,7 @@
 		-> Ex :- count(),collect etc.
 	2. intermediate operation(stream ->terminal operation -> another stream)
 		-> Ex :- map,flatMap,filter etc.
-		-> you can create chain of intermediate operation like (stream -> flatmap -> stream -> map -> stream -> )
+		-> you can create chain of intermediate operation like (stream -> flatMap -> stream -> map -> stream -> )
 		-> lazy execution :- intermediate operation will get executed once when terminal operation is called.
 		                     for better performance and memory optimization
 		-> terminal called only once bcz once terminal called then end of the stream but intermediate can call any number of times 			
@@ -37,7 +37,9 @@
 		-> single threaded
 		
 		
-		
+-> always do filter first approach with this memory optimization good
+
+3. flatMap() :- it will flattened multidimensional array to 1D array  or transform nested collection to flatten 		
 		
 		
 		
