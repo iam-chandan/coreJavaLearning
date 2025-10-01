@@ -1,7 +1,0 @@
- 								Equals and Hashcode
--> if two objects are equal then hashcode must be same.
--> if two objects return same hashcode those objects may or may not be same/equal.(in some scenario ,JVM may return same hashcode
-   for two differnt object)
-   
-   
-   hash collision 								

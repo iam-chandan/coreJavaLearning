@@ -1,4 +1,0 @@
-											COMPARABLE
--> by default objects are not comparable	
--> treeSet internally uses comparable functional interface
--> if use comparable then have to modify the class bcz have to override compareTo() method(con)									

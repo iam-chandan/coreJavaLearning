@@ -1,4 +1,0 @@
-							SringBuffer & StringBuilder
--> when ever you want to modify string frequently then use StringBuffer or StringBuilder
--> SringBuffer & StringBuilder both are mutable i.e. you can modify the parent object
--> for dynamic query we use SringBuffer or StringBuilder

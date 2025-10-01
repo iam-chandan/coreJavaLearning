@@ -1,5 +1,0 @@
-											LinkedHashSet
--> unique and ordered
--> one null allowed
--> ordered using doubly linkedlist
--> internally uses LinkedList											

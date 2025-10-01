@@ -1,6 +1,0 @@
-									concurrentHashMap
-
--> race conditions
-	collections.syncronizedMap(map)
--> segment level locking
--> Collections.synchronizedMap() vs ConcurrentHashMap();*imp
