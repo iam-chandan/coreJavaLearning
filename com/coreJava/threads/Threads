@@ -1,0 +1,14 @@
+											THREADS
+-> it is a sub process which can execute task independently.	
+-> Task : smallest unit of work
+	ex : printing number is a task
+-> process execute thread and thread execute tasks 
+-> JVM will create a thread which is called main thread which is rsponsible to execute main method	
+-> when multiple threads are there then we can not prdict the execution
+
+**HOW TO CREATE THREADS?
+	-> there are 2 ways to create thread
+		1. Using Thread class
+		2. Using Runnable interface		
+-> when we use/extends Thread but not call using start() instade if we call using run() then it will not consider as a thread bcz when we call start()
+   that particular thread will schedule in thread schedulaer 							

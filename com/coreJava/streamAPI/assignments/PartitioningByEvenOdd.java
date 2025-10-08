@@ -11,8 +11,6 @@ public class PartitioningByEvenOdd {
 		// TODO Auto-generated method stub
 		List<Integer> num = Arrays.asList(5,8,9,6,7,7,45,12,48,78,75);
 		Map<Boolean,List<Integer>> evenOdd = num.stream().collect(Collectors.partitioningBy(n -> n % 2 == 0));
-//		System.out.println("Even : " + evenOdd.get(true));
-//		System.out.println("Odd : " + evenOdd.get(false));
 		
 		for(Map.Entry<Boolean, List<Integer>> entry : evenOdd.entrySet()) {
 			System.out.println(entry.getKey() + " : " + entry.getValue());

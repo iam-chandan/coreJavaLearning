@@ -15,6 +15,9 @@
 -> if different object/key have same hashCode then hash collision happen bcz both object content not same so it will create a new node next to that node
 
 -> if no collision then searching is O(1)
--> from java8 on words if collision occur more then 8 time in particular bucket then LinkedList will convert entire LinkedList balance binary tree this feature is called treeify
--> same if once balance binary tree created then if we remove some elements from same binary tree till 7 element balance tree will be there if 6 element present the
-   again it will convert balance tree to LinkedList.
+-> from java8 on words if collision occur more then 8 time in particular bucket then LinkedList will convert entire LinkedList balance binary
+   tree this feature is called treefiy.
+-> same if once balance binary tree created then if we remove some elements from same binary tree till 7 element balance tree will be there if
+   6 element present the again it will convert balance tree to LinkedList.
+   
+   

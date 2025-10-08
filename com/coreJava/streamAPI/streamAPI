@@ -1,16 +1,17 @@
-										STREAM API
+													STREAM API
+										-----------------------------------			
 -> Collection vs Stream
 	->collection :- just store the data
 	->stream :- process the data						
 -> filtering will always give subset of data using filter() method will do
 
-	i/p:- {apple,samsung,lg.godrej,sansui,sony}; used filter() method to convert i/p to o/p with multiplying 2 with every element
+	i/p:- {apple,samsung,lg,godrej,sansui,sony}; used filter() method to convert i/p to o/p with multiplying 2 with every element
 	o/p:- {samsung.sansui,sony}
 
 -> transforming all the product to a single type of product like making all to upper case,lower case,
    multiplying 2 with every element etc. for that we use map() method	
    
-   i/p:-{apple,ball,cat}used map() to convert i/p to o/p converting every element to upper case
+   i/p:-{apple,ball,cat} used map() to convert i/p to o/p converting every element to upper case
    o/p:-{APPLE,BALL,CAT}
    
    i/p:-{2,4,8,10} used map() to convert i/p to o/p with multiplying 2 with every element
