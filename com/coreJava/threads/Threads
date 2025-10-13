@@ -1,5 +1,5 @@
  											THREADS
--> it is a sub process which can execute task independently.	
+-> Thread is a sub process which can execute task independently.	
 -> Task : smallest unit of work
 	ex : printing number is a task
 -> process execute thread and thread execute tasks 
@@ -23,7 +23,7 @@
 -> yield() :- like join but not same it will give chance to other 
 
 **THREAD LIFE CYCLE**
--> NEW -> RUNNABLE -> RUNNING -> SLEEP(4000) -> WAITING -> RUNNABLE -> RUNNING -> TERMINATE  
+-> NEW -> RUNNABLE -> RUNNING -> SLEEP(4000) -> WAITING/TIMED-WAITING -> RUNNABLE -> RUNNING -> TERMINATE  
 -> Thread t1 = new Thread(object) NEW thread will create
 -> after creating the thread then when we call start() it will go to RUNNABLE state
 -> Once thread gets CPU time, it will move from RUNNABLE to RUNNING.
@@ -32,6 +32,11 @@
 -> if there is SLEEP state then that thread will go to WAITING/TIMED_WAITING stage.
 -> once SLEEP time over then again it will go to RUNNABLE state then as per schedule will go to RUNNING
 -> once completed RUNNING then thread will TERMINATE and one thread is terminated then restart is not 
-   possible if restart then illegalThreadStartException will give.
+   possible if restart then "illegalThreadStartException" will give.
+-> In thread we can not predict the output because which ever task get first CPU time that one will execute first
 
+**SYNCHRONIZATION**
+-> synchronization will execute one thread at a time on one object. it will done by "object lock".
+-> synchronization works on the concept of object locking
+-> every object have one object lock
             	    											
