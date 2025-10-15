@@ -23,7 +23,7 @@
 -> yield() :- like join but not same it will give chance to other 
 
 **THREAD LIFE CYCLE**
--> NEW -> RUNNABLE -> RUNNING -> SLEEP(4000) -> WAITING/TIMED-WAITING -> RUNNABLE -> RUNNING -> TERMINATE  
+-> NEW -> RUNNABLE -> RUNNING -> SLEEP(4000)-> BLOCKING -> WAITING/TIMED-WAITING -> RUNNABLE -> RUNNING -> TERMINATE  
 -> Thread t1 = new Thread(object) NEW thread will create
 -> after creating the thread then when we call start() it will go to RUNNABLE state
 -> Once thread gets CPU time, it will move from RUNNABLE to RUNNING.
@@ -39,4 +39,8 @@
 -> synchronization will execute one thread at a time on one object. it will done by "object lock".
 -> synchronization works on the concept of object locking
 -> every object have one object lock
+-> for this we have to use synchronized keyword in method signature then only synchronization will apply 
+-> every class also have one class lcok in case of static we can use class lock
+ 
+ 
             	    											
