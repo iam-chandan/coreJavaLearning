@@ -40,7 +40,22 @@
 -> synchronization works on the concept of object locking
 -> every object have one object lock
 -> for this we have to use synchronized keyword in method signature then only synchronization will apply 
--> every class also have one class lcok in case of static we can use class lock
+-> every class also have one class lock in case of static we can use class lock
+-> rilising lock getting lock everything done by JVM
+
+**ReEntrant Lock**
+-> using this we can lock manually and achieve synchronization.it is a class which implements Lock interface.
+-> it is advance way of locking.
+-> locking and unlocking done using lock() and unlock()
+-> inside lock() and unlock() what ever boiler plate present that is single threaded
+-> if we do not use unlock() after work finish then thread will go to dead lock condition
  
  
-            	    											
+**wait() vs sleep()**
+-> wait() will release the lock but sleep() will not release the lock
+-> wait() is called from synchronized block
+
+
+
+
+  	    											
