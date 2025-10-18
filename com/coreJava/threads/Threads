@@ -16,7 +16,7 @@
 -> getName() :- it used to get curentThread name
 				ex :- Thread.currentThread().getName();
 -> join() :- it use to complete the current thread until the thread fully complete it wont got further once thread fully done with 
-             execuate then it will go with next thread.in simple term it is joining current thread with other thread.
+             execute then it will go with next thread.in simple term it is joining current thread with other thread.
              ex :- Cook t1 = new Cook();
              	   t1.start();
              	   t1.join();
@@ -41,7 +41,7 @@
 -> every object have one object lock
 -> for this we have to use synchronized keyword in method signature then only synchronization will apply 
 -> every class also have one class lock in case of static we can use class lock
--> rilising lock getting lock everything done by JVM
+-> releasing lock getting lock everything done by JVM
 
 **ReEntrant Lock**
 -> using this we can lock manually and achieve synchronization.it is a class which implements Lock interface.
@@ -51,9 +51,34 @@
 -> if we do not use unlock() after work finish then thread will go to dead lock condition
  
  
-**wait() vs sleep()**
--> wait() will release the lock but sleep() will not release the lock
--> wait() is called from synchronized block
+**wait() vs sleep() and notify()**
+-> wait() will release the lock but sleep() will not release the lock.
+-> wait() is called from synchronized block.
+-> for inter-thread communication we use wait() and notify().
+-> wait() and notify() are in object class because we call on objects thats why it is in Object class.
+
+** Executor Framework**
+-> it is another way of creating Thread
+-> it is added in java 1.5/5
+->type of thread pool in executor service are fixed, dynamic, single.
+	1. create Executor object
+		ex :- ExecutorService service = Executors.newFixedThreadPool(5);
+		
+		newFixedThreadPool() -> fixed number of threads
+		newSingleThreadExecutor() -> single thread
+		newCashedThreadPool() -> dynamic thread
+		
+
+-> common functonalities pre-implemented i.e framework
+
+**Callable interface**
+-> using this also we can create thread. it is a interface.
+-> when we use Callable then we have to override call() method and this method have return type not like run() method which does not have return type.
+   as per need or return type the future object can return.
+Q. Runnable vs Callable
+Q. what is future object
+Q. execute() vs submit() -> execute() works only in runnable but submit works on both runnable and callable
+
 
 
 
